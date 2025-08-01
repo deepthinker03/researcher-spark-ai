@@ -4,9 +4,7 @@ const nextConfig = {
   images: {
     domains: ['cdn.pixabay.com', 'images.unsplash.com', 'via.placeholder.com'],
   },
-  experimental: {
-    serverActions: true,
-  },
+  // Remove the experimental.serverActions line as it's no longer needed
 }
 
 module.exports = nextConfig
