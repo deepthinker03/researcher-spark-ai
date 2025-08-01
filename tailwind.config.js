@@ -27,7 +27,8 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
+    // Remove plugins you're not using
+    // require('@tailwindcss/forms'),
+    // require('@tailwindcss/typography'),
   ],
 }
